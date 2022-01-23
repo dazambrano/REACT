@@ -1,0 +1,83 @@
+.App{
+    padding: 10px;
+    background: #eee;
+    height: 100vh;
+}
+
+.container__comments{
+    border-radius: 5px;
+    position: relative;
+}
+.container__comment{
+    background: #fff;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.box__comment{
+    padding-top: 10px;
+    width: 100%;
+    margin: 5px;
+}
+.box__actions{
+    position: absolute;
+    right:8px;
+
+    height: 50px;
+    width: 20%;
+
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+button{
+    height: 70%;
+    width: 70%;
+    margin: 5px;
+    background: none;
+    border: none;
+    font-size: 12pt;
+    cursor: pointer;
+}
+
+.edit_button:active, .delete_button:active{
+    height: 60%;
+    width: 60%;
+}
+
+.delete_button{
+    background: rgb(189, 57, 57);
+    color: white;
+}
+
+.edit_button{
+    background: #eee;
+}
+
+.box_profile div{
+    padding-left: 10px !important;
+}
+
+.box_profile div h2{
+    margin: 0 !important;
+}
+
+.email{
+    color: rgb(89, 89, 95);
+}
+
+.box_profile{
+    display: flex;
+}
+
+.date{
+    text-align: right;
+}
+
+
+p{
+    margin: 10px;
+}
